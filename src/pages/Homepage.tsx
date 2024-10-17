@@ -1,5 +1,10 @@
+import { Button } from "@/components/ui/button";
+
 function Homepage() {
-  return <h1 className="text-3xl font-bold underline">Vendio POS</h1>;
+  return (<div>
+    <h1 className="text-xl font-bold mb-4"><span className="text-slate-500">Vendio</span> is POS, that is quick to setup and easy to use.</h1>
+    <Button size="lg">Start Now</Button>
+  </div>);
 }
 
 export default Homepage;
